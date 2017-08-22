@@ -1,5 +1,4 @@
 defmodule LoggerLagerBackend do
-  use GenEvent
 
   @moduledoc """
   A `lager` backend for `Logger`.
