@@ -6,5 +6,5 @@ config :logger,
   level: :debug
 
 config :lager,
-  handlers: [ lager_console_backend: :debug ],
+  handlers: [lager_console_backend: :debug],
   colored: true
